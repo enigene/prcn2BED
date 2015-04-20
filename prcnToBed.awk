@@ -54,7 +54,7 @@ BEGIN {
 }
 
 # at this point line must begin with sequence accession or chromosome ids
-!seqID && /^[^[:space:]]/ {
+!seqID && /^[^[:space:]]/ && !/^>/ && /[^ACGTN]/ {
   # skipping if the identifier is the same as before
   if ($1 != prevSeqID) {
     # if not save it
