@@ -133,7 +133,7 @@ seqID != "FOOTER" {
   # Here we deal with the complex case, which occurs when the coordinates are
   # represented by eight-digit value, and two fields stick together in one.
   # in the usual case field length are less than 8 symbols
-  if (length($3) < 8) {
+  if (length($3) < 10) {
     # and we set a variable with the initial and final coordinates of the monomer
     begin = $3;
     end = $4;
