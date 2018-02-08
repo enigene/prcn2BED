@@ -240,6 +240,18 @@ seqID != "FOOTER" {
     case /J2/:
       color = "255,204,204";
       break;
+    case /J3/:
+      color = "255,20,147";
+      break;
+    case /J4/:
+      color = "205,16,118";
+      break;
+    case /J5/:
+      color = "205,96,144";
+      break;
+    case /J6/:
+      color = "205,140,149";
+      break;
     default:
       color = "85,85,85";
   }
