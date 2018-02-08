@@ -231,6 +231,15 @@ seqID != "FOOTER" {
     case /D2/:
       color = "210,110,250";
       break;
+    case /D3/:
+      color = "255,187,255";
+      break;
+    case /D4/:
+      color = "205,150,205";
+      break;
+    case /FD/:
+      color = "139,102,139";
+      break;
     case /W/:
       color = "0,255,255";
       break;
